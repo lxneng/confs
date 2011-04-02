@@ -14,8 +14,6 @@ DESC="nginx daemon"
 NAME=nginx
 DAEMON=/usr/local/nginx/sbin/$NAME
 CONFIGFILE=/usr/local/nginx/conf/nginx.conf 
-DAEMON=/usr/local/nginx/sbin/$NAME
-CONFIGFILE=/usr/local/nginx/conf/nginx.conf
 PIDFILE=/usr/local/nginx/logs/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME 
 # Gracefully exit if the package has been removed.
